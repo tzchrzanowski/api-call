@@ -1,0 +1,40 @@
+
+body{
+    background: black;
+    color: gray;
+    font-family: Vivaldi Italic;
+}
+h3{
+    display: inline-block;
+}
+.box {
+    color: white;
+}
+#cloud{
+  //color: green;
+  font-size: 50px;
+  animation: pulse 1s infinite;
+  animation: slideInRight 3s;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    font-color: green;
+  }
+  50% {
+    font-color: red;
+  }
+}
+
+//----------------------
+@keyframes slideInRight {
+  0% {
+    opacity: 0;
+    transform: translatex(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translatex(0);
+  }
+}
+//--------------------
